@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\InLevelFan.cs" />
     <Compile Include="Assets\Scripts\PlayerMotion.cs" />
     <Compile Include="Assets\Scripts\SceneManagement.cs" />
+    <None Include="Assets\Sprites and Tiles\Nature_pixel_art_assets\pixel_snapping_README.txt" />
     <Reference Include="Cinemachine">
       <HintPath>D:/Unity Projects/Platform_Project/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
