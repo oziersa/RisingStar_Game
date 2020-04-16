@@ -66,9 +66,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -907100559
-  m_SortingLayer: 4
+  m_SortingLayer: 6
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300058, guid: 332f712a496ccd8408f2d945fa7608bf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5fc3951effc8dbb47abfd19200ab67e8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -222,9 +222,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 1}
-  m_Direction: 0
+  m_Offset: {x: 0.000000007376183, y: 0.061875917}
+  m_Size: {x: 1.0000001, y: 0.87625057}
+  m_Direction: 1
 --- !u!50 &6980745800608310406
 Rigidbody2D:
   serializedVersion: 4
@@ -263,6 +263,7 @@ MonoBehaviour:
   cMove: 5
   fFactor: 0.005
   dialogue: 0
+  clip: {fileID: 8300000, guid: 63f0d876863c61d41a680120dd56bd6a, type: 3}
   isGrounded: 0
   ground:
     serializedVersion: 2

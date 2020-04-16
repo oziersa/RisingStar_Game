@@ -10,6 +10,7 @@ public class PlayerMotion : MonoBehaviour
     [SerializeField] float cMove = 5f;
     [SerializeField] float fFactor = 0.1f;
     [SerializeField] public bool dialogue = false;
+    [SerializeField] AudioClip clip;
 
     //Cached component variables
     Collider2D feetCollider;
@@ -85,7 +86,7 @@ public class PlayerMotion : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             playerBody.velocity += new Vector2(0f, vMove);
-            
+            AudioSource.PlayClipAtPoint(clip, transform.position);
         }
         
     }

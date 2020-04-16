@@ -10,6 +10,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] Text dialogueText;
     public Animator animator;
     [SerializeField] float waitTime = 0.05f;
+    [SerializeField] AudioClip blip;
 
     // Start is called before the first frame update
     void Start()
@@ -60,6 +61,7 @@ public class DialogueManager : MonoBehaviour
         foreach(char character in sentence.ToCharArray())
         {
             dialogueText.text += character;
+            AudioSource.PlayClipAtPoint(blip, transform.position);
             yield return new WaitForSecondsRealtime(waitTime);
         }
     }
