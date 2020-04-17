@@ -7,18 +7,22 @@ public class LevelInfo : MonoBehaviour
 {
     [SerializeField] public int levelNumber;
     [SerializeField] public Text levelTime;
-    [SerializeField] public float time;
+    [SerializeField] public int time;
+    [SerializeField] public Text highScore;
 
 
     //Timer for level; time bonus and time marker
     private void Start()
     {
-        time = Time.time;
-        levelTime.text = (Time.time - time).ToString("0F");
+        time = (int) Time.time;
+        levelTime.text = (Time.time - time).ToString();
+        highScore.text = 0.ToString();
+        
     }
 
     private void Update()
     {
-        levelTime.text = (Time.time - time).ToString("0F");
+        levelTime.text = ( (int) (Time.time - time)).ToString();
+        highScore.text = FindObjectOfType<GameSession>().Level_highScore[levelNumber].ToString();
     }
 }
