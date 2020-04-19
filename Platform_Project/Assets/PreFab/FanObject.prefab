@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1345363488820581997}
   - component: {fileID: 1345363488820581994}
   - component: {fileID: 1345363488820581995}
+  - component: {fileID: 50641027278637490}
   m_Layer: 14
   m_Name: FanObject
   m_TagString: Untagged
@@ -121,3 +122,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fanNoise: {fileID: 8300000, guid: 154788cfbf99a9745b2547f4168b5473, type: 3}
   fanScore: 150
+--- !u!50 &50641027278637490
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345363488820581992}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 0
+  m_CollisionDetection: 0
+  m_Constraints: 0

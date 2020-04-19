@@ -23,6 +23,13 @@ public class LevelInfo : MonoBehaviour
     private void Update()
     {
         levelTime.text = ( (int) (Time.time - time)).ToString();
+        
+        //Time max
+        if((int)(Time.time - time) >= 999)
+        {
+            levelTime.text = "999";
+        }
+
         highScore.text = FindObjectOfType<GameSession>().Level_highScore[levelNumber].ToString();
     }
 }
