@@ -14,6 +14,7 @@ public class InLevelFan : MonoBehaviour
         if(playerCollider.GetComponent<CapsuleCollider2D>())
         {
             Destroy(GetComponent<BoxCollider2D>());
+            gameObject.GetComponent<Renderer>().material.color = Color.clear;
             AudioSource.PlayClipAtPoint(fanNoise, transform.position);
             FindObjectOfType<GameSession>().AddScore(fanScore);
         }

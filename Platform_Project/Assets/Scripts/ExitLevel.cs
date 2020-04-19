@@ -4,9 +4,17 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+
+
+
 public class ExitLevel : MonoBehaviour
 {
-    [SerializeField] float levelLoad = 2f;
+    //Time to wait b4 fade
+    [SerializeField] float levelLoad = 0f;
+
+    //Image to Fade
+    [SerializeField] public Image blackOut;
+    public Animator anim;
 
     //Cached references
     int levelNumber;
@@ -14,16 +22,15 @@ public class ExitLevel : MonoBehaviour
     private void Start()
     {
         levelNumber = FindObjectOfType<LevelInfo>().levelNumber;
+        anim.SetBool("End", false);
     }
 
     // Initiate to the next level on player collision
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("collision");
         if(other.GetComponent<PlayerMotion>())
         {
-            Debug.Log("Correct");
-            StartCoroutine(loadNextScene());
+            StartCoroutine(sceneFade());
         }
     }
 
@@ -56,5 +63,15 @@ public class ExitLevel : MonoBehaviour
         yield return new WaitForSeconds(levelLoad);
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex + 1);
+    }
+
+    IEnumerator sceneFade()
+    {
+        //Make transition
+        anim.SetBool("End", true);
+
+        yield return new WaitUntil(()=>blackOut.color.a == 1f);
+
+        StartCoroutine(loadNextScene());
     }
 }

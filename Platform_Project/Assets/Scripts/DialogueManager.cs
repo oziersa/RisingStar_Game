@@ -11,6 +11,7 @@ public class DialogueManager : MonoBehaviour
     public Animator animator;
     [SerializeField] float waitTime = 0.05f;
     [SerializeField] AudioClip blip;
+    [SerializeField] public bool dialogueEnd;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +29,7 @@ public class DialogueManager : MonoBehaviour
 
         //Clear Queue for a new dialogue
         sentences.Clear();
+        dialogueEnd = false;
 
         animator.SetBool("IsDialogue", true);
         nameText.text = dialogue.dialogueName;
@@ -73,5 +75,6 @@ public class DialogueManager : MonoBehaviour
             FindObjectOfType<PlayerMotion>().GetComponent<PlayerMotion>().dialogue = false;
         }
         animator.SetBool("IsDialogue", false);
+        dialogueEnd = true;
     }
 }
