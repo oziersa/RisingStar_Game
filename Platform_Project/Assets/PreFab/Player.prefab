@@ -264,6 +264,7 @@ MonoBehaviour:
   fFactor: 0.005
   dialogue: 0
   clip: {fileID: 8300000, guid: 63f0d876863c61d41a680120dd56bd6a, type: 3}
+  startPoint: {fileID: 0}
   isGrounded: 0
   ground:
     serializedVersion: 2

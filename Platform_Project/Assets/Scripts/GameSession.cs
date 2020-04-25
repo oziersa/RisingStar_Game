@@ -91,4 +91,12 @@ public class GameSession : MonoBehaviour
         SceneManager.LoadScene("Main Menu");
         levelScore = 0;
     }
+
+    public void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.M))
+        {
+            MainMenu();
+        }
+    }
 }

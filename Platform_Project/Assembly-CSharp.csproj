@@ -70,7 +70,10 @@
     <Compile Include="Assets\Scripts\ExitLevel.cs" />
     <Compile Include="Assets\Scripts\GameSession.cs" />
     <Compile Include="Assets\Scripts\InLevelFan.cs" />
+    <Compile Include="Assets\Scripts\InLevelPearl.cs" />
     <Compile Include="Assets\Scripts\LevelInfo.cs" />
+    <Compile Include="Assets\Scripts\Medusa_Actions.cs" />
+    <Compile Include="Assets\Scripts\PearlGate.cs" />
     <Compile Include="Assets\Scripts\PlayerMotion.cs" />
     <Compile Include="Assets\Scripts\Portal_To.cs" />
     <Compile Include="Assets\Scripts\SceneManagement.cs" />

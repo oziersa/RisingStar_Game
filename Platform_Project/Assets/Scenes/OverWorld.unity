@@ -265,6 +265,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8910210682155561206, guid: eda97c156b8baa348bb03e42c82d2a80,
+        type: 3}
+      propertyPath: m_Text
+      value: We them bois
+      objectReference: {fileID: 0}
     - target: {fileID: 8910210682703030249, guid: eda97c156b8baa348bb03e42c82d2a80,
         type: 3}
       propertyPath: m_Name
@@ -448,6 +453,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7701105149293314378, guid: 78b9e09ea0b66e0419433d6050e94ca9,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7701105149293314381, guid: 78b9e09ea0b66e0419433d6050e94ca9,
         type: 3}
@@ -10203,7 +10213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelPortal: 1
-  levelRequirement: 0
+  levelRequirement: 4
 --- !u!50 &1722126642
 Rigidbody2D:
   serializedVersion: 4
@@ -10775,7 +10785,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelPortal: 1
-  levelRequirement: 0
+  levelRequirement: 3
 --- !u!50 &1902002832
 Rigidbody2D:
   serializedVersion: 4
@@ -11225,6 +11235,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856069255081672666, guid: 2e2f5b7a04ce4394bacaabbf5f0ea4d0,
+        type: 3}
+      propertyPath: dialogue.dialogueName
+      value: Florbus
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856069255081672666, guid: 2e2f5b7a04ce4394bacaabbf5f0ea4d0,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: Heh...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856069255081672666, guid: 2e2f5b7a04ce4394bacaabbf5f0ea4d0,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: Remember the ice crem an' puddin'?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856069255081672666, guid: 2e2f5b7a04ce4394bacaabbf5f0ea4d0,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: I'm still tired.
       objectReference: {fileID: 0}
     - target: {fileID: 8856069255081672667, guid: 2e2f5b7a04ce4394bacaabbf5f0ea4d0,
         type: 3}
