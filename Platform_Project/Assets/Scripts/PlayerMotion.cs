@@ -11,6 +11,7 @@ public class PlayerMotion : MonoBehaviour
     [SerializeField] float fFactor = 0.1f;
     [SerializeField] public bool dialogue = false;
     [SerializeField] AudioClip clip;
+    [SerializeField] GameObject startPoint;
 
     //Cached component variables
     Collider2D feetCollider;
@@ -130,5 +131,11 @@ public class PlayerMotion : MonoBehaviour
         playerBody.gravityScale = 0f;
         playerBody.velocity = new Vector2(playerBody.velocity.x, cMove * Input.GetAxisRaw("Vertical"));
         
+    }
+
+    //Player death; Reset position
+    public void PlayerPerish()
+    {
+        gameObject.transform.position = startPoint.transform.position;
     }
 }

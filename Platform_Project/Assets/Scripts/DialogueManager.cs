@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class DialogueManager : MonoBehaviour
 {
     Queue<string> sentences;
-    [SerializeField] Text nameText;
+    [SerializeField] public Text nameText;
     [SerializeField] Text dialogueText;
     public Animator animator;
     [SerializeField] float waitTime = 0.05f;
@@ -43,8 +43,10 @@ public class DialogueManager : MonoBehaviour
         ShowNextSentence();
     }
 
+
     public void ShowNextSentence()
     {
+        Debug.Log("Next");
         //To end the dialogue
         if (sentences.Count == 0)
         {
@@ -74,6 +76,7 @@ public class DialogueManager : MonoBehaviour
         {
             FindObjectOfType<PlayerMotion>().GetComponent<PlayerMotion>().dialogue = false;
         }
+        StopAllCoroutines();
         animator.SetBool("IsDialogue", false);
         dialogueEnd = true;
     }
