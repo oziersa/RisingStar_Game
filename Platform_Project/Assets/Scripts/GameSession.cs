@@ -8,18 +8,12 @@ public class GameSession : MonoBehaviour
 {
 
     //Aspects of the game to hold onto for the duration of a game session-----------------------------
-    [SerializeField] public int playerScore = 0;
-    [SerializeField] public int playerHealth = 3;
-    [SerializeField] public int levelScore = 0;
+    [SerializeField] int playerScore = 0;
+    [SerializeField] int playerHealth = 3;
+    [SerializeField] int levelScore = 0;
 
-    [SerializeField] public Text livesText;
-    [SerializeField] public Text scoreText;
-
-    //Logic for levels cleared; to enter the level portals
-    [Header("Level clearance")]
-    [SerializeField] public bool[] Level_clear;
-    [SerializeField] public int[] Level_highScore;
-
+    [SerializeField] Text livesText;
+    [SerializeField] Text scoreText;
 
     //Awake function for a singleton effect----------------------------------------------------------
     private void Awake()
@@ -45,7 +39,7 @@ public class GameSession : MonoBehaviour
     }
 
     
-    // In-level addition to score
+
     public void AddScore(int score)
     {
         levelScore += score;
@@ -65,6 +59,12 @@ public class GameSession : MonoBehaviour
         {
             //TBD: process mortality
         }
+    }
+
+    //Load level score to player score upon completing the level
+    public void updatePlayerScore(int score)
+    {
+        playerScore += score;
     }
 
 

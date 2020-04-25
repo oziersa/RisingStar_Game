@@ -9,8 +9,6 @@ public class PlayerMotion : MonoBehaviour
     [SerializeField] float vMove = 30f;
     [SerializeField] float cMove = 5f;
     [SerializeField] float fFactor = 0.1f;
-    [SerializeField] public bool dialogue = false;
-    [SerializeField] AudioClip clip;
 
     //Cached component variables
     Collider2D feetCollider;
@@ -23,6 +21,9 @@ public class PlayerMotion : MonoBehaviour
     public bool isGrounded;
     public LayerMask ground;
     [SerializeField] bool floating = false;
+	
+	public Animator animator;
+	private bool facingRight;
     
 
     // Start is called before the first frame update
@@ -31,40 +32,34 @@ public class PlayerMotion : MonoBehaviour
         playerBody = GetComponent<Rigidbody2D>();
         feetCollider = GetComponent<PolygonCollider2D>();
         gravityScaleStart = playerBody.gravityScale;
+		
+		facingRight = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!dialogue)
+        //Simple logic test to save coding space
+        if (feetCollider.IsTouchingLayers(LayerMask.GetMask("Foreground")))
         {
-            //Simple logic test to save coding space
-            if (feetCollider.IsTouchingLayers(LayerMask.GetMask("Foreground")))
-            {
-                isGrounded = true;
-                playerBody.gravityScale = gravityScaleStart;
-
-            }
-            else
-            {
-                isGrounded = false;
-            }
-
-            //Horizontal control
-            Run();
-
-            //Vertical control
-            Jump();
-            JumpControl();
-            LadderClimb();
+            isGrounded = true;
+            playerBody.gravityScale = gravityScaleStart;
 
         }
-
-        //Motion of player is 0 during dialogue
-        if (dialogue)
+        else
         {
-            playerBody.velocity = new Vector2(0, 0);
+            isGrounded = false;
         }
+
+        //Horizontal control
+        Run();
+
+        //Vertical control
+        Jump();        
+        JumpControl();
+        LadderClimb();
+
+        
     }
 
     
@@ -73,7 +68,12 @@ public class PlayerMotion : MonoBehaviour
     {
         //Input reception
         float hInput = Input.GetAxis("Horizontal") * hMove;
-
+		animator.SetFloat("speed", Mathf.Abs(hInput));
+		// update animation w/ current speed
+		
+		// check to see what direction player is moving
+		// and flip sprite to right direction
+		Flip(hInput);
         
         //Change in x-position
         playerBody.velocity = new Vector2(hInput, playerBody.velocity.y);
@@ -86,7 +86,7 @@ public class PlayerMotion : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             playerBody.velocity += new Vector2(0f, vMove);
-            AudioSource.PlayClipAtPoint(clip, transform.position);
+            
         }
         
     }
@@ -131,4 +131,15 @@ public class PlayerMotion : MonoBehaviour
         playerBody.velocity = new Vector2(playerBody.velocity.x, cMove * Input.GetAxisRaw("Vertical"));
         
     }
+	
+	public void Flip(float horizontal)
+	{
+		// flips the sprite from left to right
+		if (horizontal < 0 && !facingRight || horizontal > 0 && facingRight){
+			facingRight = !facingRight;
+			Vector3 scale = transform.localScale;
+			scale.x *= -1;
+			transform.localScale = scale;
+		}
+	}
 }

@@ -11,7 +11,7 @@ public class InLevelFan : MonoBehaviour
     //Fan interaction
     private void OnTriggerEnter2D(Collider2D playerCollider)
     {
-        if(playerCollider.GetComponent<CapsuleCollider2D>())
+        if(playerCollider.GetComponent<PlayerMotion>())
         {
             Destroy(GetComponent<BoxCollider2D>());
             AudioSource.PlayClipAtPoint(fanNoise, transform.position);

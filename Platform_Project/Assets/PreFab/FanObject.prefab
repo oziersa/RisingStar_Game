@@ -120,4 +120,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fanNoise: {fileID: 8300000, guid: 154788cfbf99a9745b2547f4168b5473, type: 3}
-  fanScore: 150
+  fanScore: 100
