@@ -9,6 +9,7 @@ public class PlayerMotion : MonoBehaviour
     [SerializeField] float vMove = 30f;
     [SerializeField] float cMove = 5f;
     [SerializeField] float fFactor = 0.1f;
+    [SerializeField] float maxFallSpeed = -30f;
     [SerializeField] public bool dialogue = false;
     [SerializeField] AudioClip clip;
     [SerializeField] GameObject startPoint;
@@ -37,6 +38,7 @@ public class PlayerMotion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(playerBody.velocity.y);
         if (!dialogue)
         {
             //Simple logic test to save coding space
@@ -114,6 +116,11 @@ public class PlayerMotion : MonoBehaviour
             playerBody.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
         }
 
+        //Maximum drop velocity
+        if(playerBody.velocity.y < maxFallSpeed)
+        {
+            playerBody.velocity = new Vector2(playerBody.velocity.x, maxFallSpeed);
+        }
        
     }
 

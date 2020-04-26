@@ -65,7 +65,6 @@ public class Medusa_Actions : MonoBehaviour
         float zDist = gameObject.transform.position.z - eTransform.z;
 
         float distance = Mathf.Sqrt(Mathf.Pow(xDist, 2f) + Mathf.Pow(yDist, 2f) + Mathf.Pow(zDist, 2f));
-        Debug.Log("Distance: " + distance);
 
         if (distance > hDistance)
         {
