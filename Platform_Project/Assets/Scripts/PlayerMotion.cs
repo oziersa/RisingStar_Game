@@ -25,7 +25,11 @@ public class PlayerMotion : MonoBehaviour
     public bool isGrounded;
     public LayerMask ground;
     [SerializeField] bool floating = false;
-    
+
+    //Animation
+    [SerializeField] public Animator animator;
+    [SerializeField] private bool facingRight = true;
+
 
     // Start is called before the first frame update
     private void Awake()
@@ -77,7 +81,11 @@ public class PlayerMotion : MonoBehaviour
         //Input reception
         float hInput = Input.GetAxis("Horizontal") * hMove;
 
-        
+        //Animation update
+        animator.SetFloat("speed", Mathf.Abs(hInput));
+        Flip(hInput);
+
+
         //Change in x-position
         playerBody.velocity = new Vector2(hInput, playerBody.velocity.y);
     }
@@ -144,5 +152,17 @@ public class PlayerMotion : MonoBehaviour
     public void PlayerPerish()
     {
         gameObject.transform.position = startPoint.transform.position;
+    }
+
+    public void Flip(float horizontal)
+    {
+        // flips the sprite from left to right
+        if (horizontal < 0 && !facingRight || horizontal > 0 && facingRight)
+        {
+            facingRight = !facingRight;
+            Vector3 scale = transform.localScale;
+            scale.x *= -1;
+            transform.localScale = scale;
+        }
     }
 }

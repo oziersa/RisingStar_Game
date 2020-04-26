@@ -152,6 +152,7 @@ GameObject:
   - component: {fileID: 6980745800608310407}
   - component: {fileID: 6980745800608310406}
   - component: {fileID: 6980745800608310405}
+  - component: {fileID: 6980745799340901664}
   m_Layer: 10
   m_Name: Player
   m_TagString: Untagged
@@ -262,6 +263,7 @@ MonoBehaviour:
   vMove: 25
   cMove: 5
   fFactor: 0.005
+  maxFallSpeed: -30
   dialogue: 0
   clip: {fileID: 8300000, guid: 63f0d876863c61d41a680120dd56bd6a, type: 3}
   startPoint: {fileID: 0}
@@ -270,3 +272,24 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   floating: 0
+  animator: {fileID: 0}
+  facingRight: 0
+--- !u!95 &6980745799340901664
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6980745800608310409}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 47e067bd1c8b1e14d87a654364191c56, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
