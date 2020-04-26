@@ -20,10 +20,10 @@ public class PlayerMotion : MonoBehaviour
     //Jump modifiers
     float fallMultiplier = 4.5f;
     float lowJumpMultiplier = 2.5f;
-    float bounceMultiplier;
     public bool isGrounded;
     public LayerMask ground;
     [SerializeField] bool floating = false;
+    
 
     // Start is called before the first frame update
     private void Awake()

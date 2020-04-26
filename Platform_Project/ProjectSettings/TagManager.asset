@@ -20,7 +20,7 @@ TagManager:
   - Climb
   - Camera
   - Interaction
-  - Bounce
+  - 
   - 
   - 
   - 
@@ -49,9 +49,6 @@ TagManager:
     locked: 0
   - name: Climb
     uniqueID: 4286812641
-    locked: 0
-  - name: Bounce
-    uniqueID: 734995901
     locked: 0
   - name: Enemy
     uniqueID: 1410034841
