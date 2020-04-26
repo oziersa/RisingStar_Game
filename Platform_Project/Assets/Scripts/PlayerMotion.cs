@@ -9,8 +9,10 @@ public class PlayerMotion : MonoBehaviour
     [SerializeField] float vMove = 30f;
     [SerializeField] float cMove = 5f;
     [SerializeField] float fFactor = 0.1f;
+    [SerializeField] float maxFallSpeed = -30f;
     [SerializeField] public bool dialogue = false;
     [SerializeField] AudioClip clip;
+    [SerializeField] GameObject startPoint;
 
     //Cached component variables
     Collider2D feetCollider;
@@ -23,7 +25,11 @@ public class PlayerMotion : MonoBehaviour
     public bool isGrounded;
     public LayerMask ground;
     [SerializeField] bool floating = false;
-    
+
+    //Animation
+    [SerializeField] public Animator animator;
+    [SerializeField] private bool facingRight = true;
+
 
     // Start is called before the first frame update
     private void Awake()
@@ -36,6 +42,7 @@ public class PlayerMotion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(playerBody.velocity.y);
         if (!dialogue)
         {
             //Simple logic test to save coding space
@@ -74,7 +81,11 @@ public class PlayerMotion : MonoBehaviour
         //Input reception
         float hInput = Input.GetAxis("Horizontal") * hMove;
 
-        
+        //Animation update
+        animator.SetFloat("speed", Mathf.Abs(hInput));
+        Flip(hInput);
+
+
         //Change in x-position
         playerBody.velocity = new Vector2(hInput, playerBody.velocity.y);
     }
@@ -113,6 +124,11 @@ public class PlayerMotion : MonoBehaviour
             playerBody.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
         }
 
+        //Maximum drop velocity
+        if(playerBody.velocity.y < maxFallSpeed)
+        {
+            playerBody.velocity = new Vector2(playerBody.velocity.x, maxFallSpeed);
+        }
        
     }
 
@@ -130,5 +146,23 @@ public class PlayerMotion : MonoBehaviour
         playerBody.gravityScale = 0f;
         playerBody.velocity = new Vector2(playerBody.velocity.x, cMove * Input.GetAxisRaw("Vertical"));
         
+    }
+
+    //Player death; Reset position
+    public void PlayerPerish()
+    {
+        gameObject.transform.position = startPoint.transform.position;
+    }
+
+    public void Flip(float horizontal)
+    {
+        // flips the sprite from left to right
+        if (horizontal < 0 && !facingRight || horizontal > 0 && facingRight)
+        {
+            facingRight = !facingRight;
+            Vector3 scale = transform.localScale;
+            scale.x *= -1;
+            transform.localScale = scale;
+        }
     }
 }

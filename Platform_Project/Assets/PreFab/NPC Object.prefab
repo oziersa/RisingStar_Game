@@ -281,11 +281,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    dialogueName: Florbus
+    dialogueName: Bit
     sentences:
-    - "...\t"
-    - It's da puddin' pop and the ice crem.
-    - I'm tired...
+    - Heh...
+    - You've done well to get here.
+    - Find all the pearls to unlock the exit door.
 --- !u!1001 &8856069255132770570
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -293,6 +293,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8856069255081672679}
     m_Modifications:
+    - target: {fileID: 8987069216068738291, guid: 72e616a061b0a83429decaff4a5dca38,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 8987069217072369442, guid: 72e616a061b0a83429decaff4a5dca38,
         type: 3}
       propertyPath: m_LocalPosition.x

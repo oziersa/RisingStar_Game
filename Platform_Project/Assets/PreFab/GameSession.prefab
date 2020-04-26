@@ -128,6 +128,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Health:'
+--- !u!114 &3586427407312182248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7701105149293314377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70bfc92c9f6550b44926f20b6ff81f09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8457766912093718403
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,6 +428,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe095b88b5c13b84a97febfc2c2ea8d6, type: 3}
+--- !u!1 &7701105149293314377 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7701105150033715526, guid: fe095b88b5c13b84a97febfc2c2ea8d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 742367247}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &7701105149293314381 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7701105150033715522, guid: fe095b88b5c13b84a97febfc2c2ea8d6,
