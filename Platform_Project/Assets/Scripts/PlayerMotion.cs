@@ -12,7 +12,7 @@ public class PlayerMotion : MonoBehaviour
     [SerializeField] float maxFallSpeed = -30f;
     [SerializeField] public bool dialogue = false;
     [SerializeField] AudioClip clip;
-    [SerializeField] GameObject startPoint;
+    [SerializeField] public GameObject startPoint;
 
     //Cached component variables
     Collider2D feetCollider;
@@ -42,7 +42,6 @@ public class PlayerMotion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(playerBody.velocity.y);
         if (!dialogue)
         {
             //Simple logic test to save coding space
@@ -152,8 +151,10 @@ public class PlayerMotion : MonoBehaviour
     public void PlayerPerish()
     {
         gameObject.transform.position = startPoint.transform.position;
+        FindObjectOfType<Camera>().transform.position = gameObject.transform.position;
     }
 
+    
     public void Flip(float horizontal)
     {
         // flips the sprite from left to right
