@@ -11,7 +11,7 @@ public class PlayerMotion : MonoBehaviour
     [SerializeField] float fFactor = 0.1f;
     [SerializeField] public bool dialogue = false;
     [SerializeField] AudioClip clip;
-    [SerializeField] GameObject startPoint;
+    [SerializeField] public GameObject startPoint;
 
     //Cached component variables
     Collider2D feetCollider;
