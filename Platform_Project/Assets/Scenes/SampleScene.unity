@@ -129599,6 +129599,11 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 1435312538}
+    - target: {fileID: 4558110494109147421, guid: 27988e2b5da12534889355c4cc43c713,
+        type: 3}
+      propertyPath: m_LookaheadSmoothing
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4558110494144594805, guid: 27988e2b5da12534889355c4cc43c713,
         type: 3}
       propertyPath: m_ChildCameras.Array.size
