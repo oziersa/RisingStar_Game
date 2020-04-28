@@ -49,6 +49,7 @@ MonoBehaviour:
   levelScore: 0
   livesText: {fileID: 7701105149369019930}
   scoreText: {fileID: 7701105149909226467}
+  menuUI: {fileID: 0}
   Level_clear: 01000000
   Level_highScore: 00000000000000000000000000000000
 --- !u!1 &3925071893651808535

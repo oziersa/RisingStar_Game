@@ -263,7 +263,7 @@ MonoBehaviour:
   vMove: 25
   cMove: 5
   fFactor: 0.005
-  maxFallSpeed: -30
+  maxFallSpeed: -15
   dialogue: 0
   clip: {fileID: 8300000, guid: 63f0d876863c61d41a680120dd56bd6a, type: 3}
   startPoint: {fileID: 0}
@@ -272,8 +272,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   floating: 0
-  animator: {fileID: 0}
+  animator: {fileID: 6980745799340901664}
   facingRight: 0
+  camObject: {fileID: 0}
 --- !u!95 &6980745799340901664
 Animator:
   serializedVersion: 3
