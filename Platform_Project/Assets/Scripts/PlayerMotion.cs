@@ -29,6 +29,7 @@ public class PlayerMotion : MonoBehaviour
     //Animation
     [SerializeField] public Animator animator;
     [SerializeField] private bool facingRight = true;
+    [SerializeField] GameObject camObject;
 
 
     // Start is called before the first frame update
@@ -150,8 +151,11 @@ public class PlayerMotion : MonoBehaviour
     //Player death; Reset position
     public void PlayerPerish()
     {
+        Vector3 startPosition = transform.position;
+        Vector3 moveDelta = startPoint.transform.position - startPosition;
+
         gameObject.transform.position = startPoint.transform.position;
-        FindObjectOfType<Camera>().transform.position = gameObject.transform.position;
+        Camera.main.transform.position += moveDelta;
     }
 
     
