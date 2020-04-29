@@ -274,7 +274,6 @@ MonoBehaviour:
   floating: 0
   animator: {fileID: 6980745799340901664}
   facingRight: 0
-  camObject: {fileID: 0}
 --- !u!95 &6980745799340901664
 Animator:
   serializedVersion: 3

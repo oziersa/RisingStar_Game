@@ -20,7 +20,7 @@ TagManager:
   - Climb
   - Camera
   - Interaction
-  - Springs
+  - 
   - 
   - 
   - 
@@ -46,9 +46,6 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 236427719
-    locked: 0
-  - name: Springs
-    uniqueID: 4066048785
     locked: 0
   - name: Climb
     uniqueID: 4286812641

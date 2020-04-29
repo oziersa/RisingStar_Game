@@ -29,9 +29,6 @@ public class PausedMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Keeping up with the Kardashians (cont)
-        followCount = FindObjectOfType<GameSession>().playerScore;
-        followerCount.text = followCount.ToString();
 
         //Menu active or not
 
