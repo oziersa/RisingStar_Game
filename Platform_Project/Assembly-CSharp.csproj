@@ -60,6 +60,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Block.cs" />
+    <Compile Include="Assets\BlueButton.cs" />
+    <Compile Include="Assets\Ladybug.cs" />
+    <Compile Include="Assets\PurpleButton.cs" />
+    <Compile Include="Assets\RedButton.cs" />
     <Compile Include="Assets\Scripts\button_is_clicked.cs" />
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\codeButtonPress.cs" />
