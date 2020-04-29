@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Kid Icarus.unity
+- path: Assets/Scenes/sanic.unity
   isLoaded: 1
   isActive: 1
