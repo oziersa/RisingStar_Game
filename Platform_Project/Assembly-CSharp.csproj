@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\button_is_clicked.cs" />
+     <Compile Include="Assets\Scripts\Checkpoint.cs" />
      <Compile Include="Assets\Scripts\codeButtonPress.cs" />
      <Compile Include="Assets\Scripts\codeGate.cs" />
      <Compile Include="Assets\Scripts\Dash.cs" />
@@ -77,6 +78,8 @@
      <Compile Include="Assets\Scripts\Portal_To.cs" />
      <Compile Include="Assets\Scripts\SceneManagement.cs" />
      <Compile Include="Assets\Scripts\SpikeDamage.cs" />
+     <Compile Include="Assets\Scripts\Springs.cs" />
+     <Compile Include="Assets\Scripts\VisualHints.cs" />
      <Compile Include="Assets\Scripts\VolumeOption.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
