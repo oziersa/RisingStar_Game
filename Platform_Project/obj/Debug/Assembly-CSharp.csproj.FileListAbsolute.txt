@@ -1,2 +1,0 @@
-D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
