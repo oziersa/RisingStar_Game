@@ -15,6 +15,7 @@ public class SpikeDamage : MonoBehaviour
         {
             PlayerMotion player = collision.GetComponent<PlayerMotion>();
             player.PlayerPerish();
+            Debug.Log("oof");
         }
     }
 

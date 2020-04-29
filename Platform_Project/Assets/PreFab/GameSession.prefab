@@ -45,12 +45,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerScore: 0
-  playerHealth: 3
   levelScore: 0
-  livesText: {fileID: 0}
   scoreText: {fileID: 7701105149909226467}
-  Level_clear: 01000000
-  Level_highScore: 00000000000000000000000000000000
+  menuUI: {fileID: 0}
+  Level_clear: 0100000000
+  Level_highScore: 0000000000000000000000000000000000000000
 --- !u!114 &3586427407312182248
 MonoBehaviour:
   m_ObjectHideFlags: 0
