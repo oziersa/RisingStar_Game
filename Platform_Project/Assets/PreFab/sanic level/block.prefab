@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2252538395159621038}
   - component: {fileID: 4629901956964495}
   - component: {fileID: 453071236935658265}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7218594053689388260}
   - component: {fileID: 7218594053689388259}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: block sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
