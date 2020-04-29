@@ -45,4 +45,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gamePaused: 0
   pauseUI: {fileID: 0}
+  gameUI: {fileID: 0}
   followerCount: {fileID: 0}

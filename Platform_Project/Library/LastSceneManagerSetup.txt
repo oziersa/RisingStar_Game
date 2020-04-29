@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Kid Icarus.unity
-=======
-- path: Assets/Scenes/ellie_level.unity
->>>>>>> dcdf65a960a064bfc7db881416ac6e64da75479e
+- path: Assets/Scenes/Kid Icarus1.unity
   isLoaded: 1
   isActive: 1
