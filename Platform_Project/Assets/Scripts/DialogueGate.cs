@@ -9,7 +9,6 @@ public class DialogueGate : MonoBehaviour
     //Determine specific dialogues to 'open gate'
     [SerializeField] DialogueManager trigger;
     [SerializeField] string name;
-    [SerializeField] AudioClip door;
 
 
     //Destroy Gate upon end of dialogue
@@ -17,7 +16,6 @@ public class DialogueGate : MonoBehaviour
     {
         if(trigger.dialogueEnd && (name == trigger.nameText.text.ToString()))
         {
-            AudioSource.PlayClipAtPoint(door, gameObject.transform.position);
             Destroy(gameObject);
         }
     }

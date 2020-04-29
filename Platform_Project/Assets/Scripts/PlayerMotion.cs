@@ -29,9 +29,8 @@ public class PlayerMotion : MonoBehaviour
     //Animation
     [SerializeField] public Animator animator;
     [SerializeField] private bool facingRight = true;
-    [SerializeField] GameObject camObject;
-
-
+	
+	
     // Start is called before the first frame update
     private void Awake()
     {
@@ -78,13 +77,17 @@ public class PlayerMotion : MonoBehaviour
 
     public void Run()
     {
-        //Input reception
-        float hInput = Input.GetAxis("Horizontal") * hMove;
+		
+		float hInput;
+		
+		
+		//Input reception
+		hInput = Input.GetAxis("Horizontal") * hMove;
+	
 
         //Animation update
         animator.SetFloat("speed", Mathf.Abs(hInput));
         Flip(hInput);
-
 
         //Change in x-position
         playerBody.velocity = new Vector2(hInput, playerBody.velocity.y);
@@ -151,14 +154,9 @@ public class PlayerMotion : MonoBehaviour
     //Player death; Reset position
     public void PlayerPerish()
     {
-        Vector3 startPosition = transform.position;
-        Vector3 moveDelta = startPoint.transform.position - startPosition;
-
         gameObject.transform.position = startPoint.transform.position;
-        Camera.main.transform.position += moveDelta;
     }
 
-    
     public void Flip(float horizontal)
     {
         // flips the sprite from left to right

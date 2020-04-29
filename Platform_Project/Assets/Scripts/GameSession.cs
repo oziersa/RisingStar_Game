@@ -9,10 +9,8 @@ public class GameSession : MonoBehaviour
 
     //Aspects of the game to hold onto for the duration of a game session-----------------------------
     [SerializeField] public int playerScore = 0;
-    [SerializeField] public int playerHealth = 3;
     [SerializeField] public int levelScore = 0;
 
-    [SerializeField] public Text livesText;
     [SerializeField] public Text scoreText;
     [SerializeField] public PausedMenu menuUI;
 
@@ -41,7 +39,6 @@ public class GameSession : MonoBehaviour
     //Initialize the level
     private void Start()
     {
-        livesText.text = playerHealth.ToString();
         scoreText.text = levelScore.ToString();
     }
 
@@ -52,22 +49,6 @@ public class GameSession : MonoBehaviour
         levelScore += score;
         scoreText.text = levelScore.ToString();
     }
-
-    //Process damage
-    public void ProcessDamage()
-    {
-        if (playerHealth > 0)
-        {
-            playerHealth--;
-            livesText.text = playerHealth.ToString();
-            //TBD: alter health UI; invincibility frames
-        }
-        else
-        {
-            //TBD: process mortality
-        }
-    }
-
 
     //---------------------------Options upon 'defeat'-----------------------
 
