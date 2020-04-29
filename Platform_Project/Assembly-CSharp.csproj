@@ -60,6 +60,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Block.cs" />
+    <Compile Include="Assets\BlueButton.cs" />
+    <Compile Include="Assets\Ladybug.cs" />
+    <Compile Include="Assets\PurpleButton.cs" />
+    <Compile Include="Assets\RedButton.cs" />
     <Compile Include="Assets\Scripts\button_is_clicked.cs" />
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\Dialogue.cs" />
@@ -82,6 +87,7 @@
     <Compile Include="Assets\Scripts\Portal_To.cs" />
     <Compile Include="Assets\Scripts\SceneManagement.cs" />
     <Compile Include="Assets\Scripts\Springs.cs" />
+    <Compile Include="Assets\Scripts\VisualHints.cs" />
     <Compile Include="Assets\Scripts\VolumeOption.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
@@ -681,7 +687,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
