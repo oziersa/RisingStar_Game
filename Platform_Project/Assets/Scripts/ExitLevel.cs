@@ -66,7 +66,8 @@ public class ExitLevel : MonoBehaviour
 
         yield return new WaitForSeconds(levelLoad);
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(currentSceneIndex + 1);
+        //lol
+        SceneManager.LoadScene(2);
     }
 
     IEnumerator sceneFade()
