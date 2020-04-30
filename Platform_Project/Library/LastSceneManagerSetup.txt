@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/OverWorld 1.unity
-=======
-- path: Assets/Scenes/Kid Icarus.unity
->>>>>>> 1a247285a847b09daf1a9cb788075fa41e422396
   isLoaded: 1
   isActive: 1
