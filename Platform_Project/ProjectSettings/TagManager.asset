@@ -20,7 +20,7 @@ TagManager:
   - Climb
   - Camera
   - Interaction
-  - 
+  - Springs
   - 
   - 
   - 
@@ -58,4 +58,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3387866737
+    locked: 0
+  - name: Springs
+    uniqueID: 754281507
     locked: 0

@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1666186674, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 2
+  lastUpdatedAtString: 2020-04-29T22:18:59.143-05:00
+  initializedAtString: 2020-04-29T21:01:02.067-05:00
+  localBranches:
+  - name: ellie_branch
+    tracking: origin/ellie_branch
+  - name: master
+    tracking: origin/master
+  - name: tim-dev
+    tracking: origin/tim-dev
+  remoteBranches:
+  - name: origin/brandon-branch
+    tracking: '[None]'
+  - name: origin/ellie_new
+    tracking: '[None]'
+  - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/master
+    tracking: '[None]'
+  - name: origin/sam-dev
+    tracking: '[None]'
+  - name: origin/tim-dev
+    tracking: '[None]'
+  remotes:
+  - name: origin
+    url: https://github.com/oziersa/RisingStar_Game.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
+  localConfigBranches:
+    keys:
+    - ellie_branch
+    - master
+    - tim-dev
+    values:
+    - name: ellie_branch
+      remote:
+        name: origin
+        url: https://github.com/oziersa/RisingStar_Game.git
+      trackingBranch: ellie_branch
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/oziersa/RisingStar_Game.git
+      trackingBranch: master
+    - name: tim-dev
+      remote:
+        name: origin
+        url: https://github.com/oziersa/RisingStar_Game.git
+      trackingBranch: tim-dev
+  remoteConfigBranches:
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - brandon-branch
+      - ellie_new
+      - HEAD
+      - master
+      - sam-dev
+      - tim-dev
+    subKeyValues:
+    - Values:
+      - name: brandon-branch
+        remote:
+          name: origin
+          url: https://github.com/oziersa/RisingStar_Game.git
+        trackingBranch: 
+      - name: ellie_new
+        remote:
+          name: origin
+          url: https://github.com/oziersa/RisingStar_Game.git
+        trackingBranch: 
+      - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/oziersa/RisingStar_Game.git
+        trackingBranch: 
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/oziersa/RisingStar_Game.git
+        trackingBranch: 
+      - name: sam-dev
+        remote:
+          name: origin
+          url: https://github.com/oziersa/RisingStar_Game.git
+        trackingBranch: 
+      - name: tim-dev
+        remote:
+          name: origin
+          url: https://github.com/oziersa/RisingStar_Game.git
+        trackingBranch: 
+  configRemotes:
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/oziersa/RisingStar_Game.git

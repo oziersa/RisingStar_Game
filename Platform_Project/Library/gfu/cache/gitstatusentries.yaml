@@ -1,0 +1,1122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2020-04-29T22:47:40.910-05:00
+  initializedAtString: 2020-04-29T20:56:04.307-05:00
+  entries:
+  - path: Platform_Project\.vs\Platform_Project\v15\.suo
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\.vs\Platform_Project\v15\.suo
+    projectPath: .vs\Platform_Project\v15\.suo
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\.vs\Platform_Project\v15\Server\sqlite3\storage.ide
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\.vs\Platform_Project\v15\Server\sqlite3\storage.ide
+    projectPath: .vs\Platform_Project\v15\Server\sqlite3\storage.ide
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\.vs\Platform_Project\v15\Server\sqlite3\storage.ide-shm
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\.vs\Platform_Project\v15\Server\sqlite3\storage.ide-shm
+    projectPath: .vs\Platform_Project\v15\Server\sqlite3\storage.ide-shm
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\.vs\Platform_Project\v15\Server\sqlite3\storage.ide-wal
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\.vs\Platform_Project\v15\Server\sqlite3\storage.ide-wal
+    projectPath: .vs\Platform_Project\v15\Server\sqlite3\storage.ide-wal
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Assembly-CSharp.csproj
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Assets\PreFab\NPC Object.prefab
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Assets\PreFab\NPC
+      Object.prefab
+    projectPath: Assets\PreFab\NPC Object.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Assets\Scenes\Kid Icarus.unity.meta
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Assets\Scenes\Kid
+      Icarus.unity.meta
+    projectPath: Assets\Scenes\Kid Icarus.unity.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Assets\Scenes\Opening Dialogue.unity
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Assets\Scenes\Opening
+      Dialogue.unity
+    projectPath: Assets\Scenes\Opening Dialogue.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Assets\Scenes\Opening Dialogue.unity.meta
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Assets\Scenes\Opening
+      Dialogue.unity.meta
+    projectPath: Assets\Scenes\Opening Dialogue.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Assets\Scenes\sanic.unity
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Assets\Scenes\sanic.unity
+    projectPath: Assets\Scenes\sanic.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Assets\Scenes\sanic0.unity
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Assets\Scenes\sanic0.unity
+    projectPath: Assets\Scenes\sanic0.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Assets\Scripts\OpeningDialogueTrigger.cs
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Assets\Scripts\OpeningDialogueTrigger.cs
+    projectPath: Assets\Scripts\OpeningDialogueTrigger.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Assets\Scripts\OpeningDialogueTrigger.cs.meta
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Assets\Scripts\OpeningDialogueTrigger.cs.meta
+    projectPath: Assets\Scripts\OpeningDialogueTrigger.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Assets\Sprites and Tiles\night sky.png
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Assets\Sprites
+      and Tiles\night sky.png
+    projectPath: Assets\Sprites and Tiles\night sky.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Assets\Sprites and Tiles\night sky.png.meta
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Assets\Sprites
+      and Tiles\night sky.png.meta
+    projectPath: Assets\Sprites and Tiles\night sky.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\assetDatabase3
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\CrashedAssetImports.txt
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\CrashedAssetImports.txt
+    projectPath: Library\CrashedAssetImports.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\CurrentLayout.dwlt
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\EditorInstance.json
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\gfu\cache\branches.yaml
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\gfu\cache\gitlocks.yaml
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\gfu\cache\gitlog.yaml
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\gfu\cache\repoinfo.yaml
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\InspectorExpandedItems.asset
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+    projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\02\02b98b470e53ed040b60b3ef7ac9d870.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\02\02b98b470e53ed040b60b3ef7ac9d870.info
+    projectPath: Library\metadata\02\02b98b470e53ed040b60b3ef7ac9d870.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\07\0747d2c6ccb1e654ba5e3a2405cdfee5.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\07\0747d2c6ccb1e654ba5e3a2405cdfee5.info
+    projectPath: Library\metadata\07\0747d2c6ccb1e654ba5e3a2405cdfee5.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\0b\0bf515b252cc64d489888a8b672693d7.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\0b\0bf515b252cc64d489888a8b672693d7.info
+    projectPath: Library\metadata\0b\0bf515b252cc64d489888a8b672693d7.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\0c\0c1ee09e81c26ab4eb2526d254ecab50.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\0c\0c1ee09e81c26ab4eb2526d254ecab50.info
+    projectPath: Library\metadata\0c\0c1ee09e81c26ab4eb2526d254ecab50.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\0f\0fc46c2c450219d468496081b57df947
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\0f\0fc46c2c450219d468496081b57df947
+    projectPath: Library\metadata\0f\0fc46c2c450219d468496081b57df947
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\0f\0fc46c2c450219d468496081b57df947.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\0f\0fc46c2c450219d468496081b57df947.info
+    projectPath: Library\metadata\0f\0fc46c2c450219d468496081b57df947.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
+    projectPath: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\13\136dc24f151211d438acee17aff4e934
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\13\136dc24f151211d438acee17aff4e934
+    projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\14\144c6657c4f6589408d7f26fb0027a01.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\14\144c6657c4f6589408d7f26fb0027a01.info
+    projectPath: Library\metadata\14\144c6657c4f6589408d7f26fb0027a01.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\16\168af74d5d4a82543a105baa71ba6a24.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\16\168af74d5d4a82543a105baa71ba6a24.info
+    projectPath: Library\metadata\16\168af74d5d4a82543a105baa71ba6a24.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+    projectPath: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\18\1857e384ea76d8f43a2484f1fbeef9fb
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\18\1857e384ea76d8f43a2484f1fbeef9fb
+    projectPath: Library\metadata\18\1857e384ea76d8f43a2484f1fbeef9fb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\18\1857e384ea76d8f43a2484f1fbeef9fb.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\18\1857e384ea76d8f43a2484f1fbeef9fb.info
+    projectPath: Library\metadata\18\1857e384ea76d8f43a2484f1fbeef9fb.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\18\185e7ad29b90b8b40a0d8d5a646f576b.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\18\185e7ad29b90b8b40a0d8d5a646f576b.info
+    projectPath: Library\metadata\18\185e7ad29b90b8b40a0d8d5a646f576b.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\1d\1d40ab637ccf50e429bb9a87e24b76de.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\1d\1d40ab637ccf50e429bb9a87e24b76de.info
+    projectPath: Library\metadata\1d\1d40ab637ccf50e429bb9a87e24b76de.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+    projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\2c\2c448e5622e63d54c986dfcedf124f3f.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\2c\2c448e5622e63d54c986dfcedf124f3f.info
+    projectPath: Library\metadata\2c\2c448e5622e63d54c986dfcedf124f3f.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\2e\2e2f5b7a04ce4394bacaabbf5f0ea4d0
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\2e\2e2f5b7a04ce4394bacaabbf5f0ea4d0
+    projectPath: Library\metadata\2e\2e2f5b7a04ce4394bacaabbf5f0ea4d0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\2e\2e2f5b7a04ce4394bacaabbf5f0ea4d0.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\2e\2e2f5b7a04ce4394bacaabbf5f0ea4d0.info
+    projectPath: Library\metadata\2e\2e2f5b7a04ce4394bacaabbf5f0ea4d0.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\32\322dfd28ddcd3374aa8622748244d85e.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\32\322dfd28ddcd3374aa8622748244d85e.info
+    projectPath: Library\metadata\32\322dfd28ddcd3374aa8622748244d85e.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\33\33d3e83914445de4d92ab0d77d7fa3f9.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\33\33d3e83914445de4d92ab0d77d7fa3f9.info
+    projectPath: Library\metadata\33\33d3e83914445de4d92ab0d77d7fa3f9.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\36\362115a8109ebeb409674dbc7e8ce38d.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\36\362115a8109ebeb409674dbc7e8ce38d.info
+    projectPath: Library\metadata\36\362115a8109ebeb409674dbc7e8ce38d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\38\383afd388f47c5b4882163012c019a69.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\38\383afd388f47c5b4882163012c019a69.info
+    projectPath: Library\metadata\38\383afd388f47c5b4882163012c019a69.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\38\38d3684e7bc17b44dbb3755e8fe79f6e.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\38\38d3684e7bc17b44dbb3755e8fe79f6e.info
+    projectPath: Library\metadata\38\38d3684e7bc17b44dbb3755e8fe79f6e.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\3f\3fbbdc79b6a5ff241bc8b98d4ffbdde2.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\3f\3fbbdc79b6a5ff241bc8b98d4ffbdde2.info
+    projectPath: Library\metadata\3f\3fbbdc79b6a5ff241bc8b98d4ffbdde2.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\44\448644a859abd7646ab2c2d33ca95e4b
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\44\448644a859abd7646ab2c2d33ca95e4b
+    projectPath: Library\metadata\44\448644a859abd7646ab2c2d33ca95e4b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\metadata\44\448644a859abd7646ab2c2d33ca95e4b.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\44\448644a859abd7646ab2c2d33ca95e4b.info
+    projectPath: Library\metadata\44\448644a859abd7646ab2c2d33ca95e4b.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\metadata\48\480071253ef427a4cbc55ef1fedca3e5.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\48\480071253ef427a4cbc55ef1fedca3e5.info
+    projectPath: Library\metadata\48\480071253ef427a4cbc55ef1fedca3e5.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\48\48d87f27b8bf62049bdb72815d5f2b72.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\48\48d87f27b8bf62049bdb72815d5f2b72.info
+    projectPath: Library\metadata\48\48d87f27b8bf62049bdb72815d5f2b72.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\49\49e6b675932064f479c2ca39a686673d.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\49\49e6b675932064f479c2ca39a686673d.info
+    projectPath: Library\metadata\49\49e6b675932064f479c2ca39a686673d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\4b\4ba86e5b8d6657b4184ff6b976ac3d3e.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\4b\4ba86e5b8d6657b4184ff6b976ac3d3e.info
+    projectPath: Library\metadata\4b\4ba86e5b8d6657b4184ff6b976ac3d3e.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\4f\4fe8d7fb806dafe4e8a568fb432a33c7.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\4f\4fe8d7fb806dafe4e8a568fb432a33c7.info
+    projectPath: Library\metadata\4f\4fe8d7fb806dafe4e8a568fb432a33c7.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+    projectPath: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\56\56a904befa86c3245b6eff44b745fd3b.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\56\56a904befa86c3245b6eff44b745fd3b.info
+    projectPath: Library\metadata\56\56a904befa86c3245b6eff44b745fd3b.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\56\56d374b74ef77484d9b0f345d3697107.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\56\56d374b74ef77484d9b0f345d3697107.info
+    projectPath: Library\metadata\56\56d374b74ef77484d9b0f345d3697107.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\5a\5a2082a44711bad4b90f693579c2b336.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\5a\5a2082a44711bad4b90f693579c2b336.info
+    projectPath: Library\metadata\5a\5a2082a44711bad4b90f693579c2b336.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\5b\5bd0b7a9c2cd5f845870f4fc4aa06b07.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\5b\5bd0b7a9c2cd5f845870f4fc4aa06b07.info
+    projectPath: Library\metadata\5b\5bd0b7a9c2cd5f845870f4fc4aa06b07.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\5c\5cd5f2924ef2a2b4e9b1cfb4347c4b5a
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\5c\5cd5f2924ef2a2b4e9b1cfb4347c4b5a
+    projectPath: Library\metadata\5c\5cd5f2924ef2a2b4e9b1cfb4347c4b5a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\5c\5cd5f2924ef2a2b4e9b1cfb4347c4b5a.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\5c\5cd5f2924ef2a2b4e9b1cfb4347c4b5a.info
+    projectPath: Library\metadata\5c\5cd5f2924ef2a2b4e9b1cfb4347c4b5a.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\6c\6c304cd376631a549ac395e6effb6ff6
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\6c\6c304cd376631a549ac395e6effb6ff6
+    projectPath: Library\metadata\6c\6c304cd376631a549ac395e6effb6ff6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\metadata\6c\6c304cd376631a549ac395e6effb6ff6.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\6c\6c304cd376631a549ac395e6effb6ff6.info
+    projectPath: Library\metadata\6c\6c304cd376631a549ac395e6effb6ff6.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\metadata\6c\6ccddb0b4011a8040b37722dbaff278e.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\6c\6ccddb0b4011a8040b37722dbaff278e.info
+    projectPath: Library\metadata\6c\6ccddb0b4011a8040b37722dbaff278e.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\6e\6e4df876417ac4c4f8862a5234b25615.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\6e\6e4df876417ac4c4f8862a5234b25615.info
+    projectPath: Library\metadata\6e\6e4df876417ac4c4f8862a5234b25615.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\6f\6f6f8255ab9d6194ca174a570ec2ec5b.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\6f\6f6f8255ab9d6194ca174a570ec2ec5b.info
+    projectPath: Library\metadata\6f\6f6f8255ab9d6194ca174a570ec2ec5b.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\75\75b9c374f6894624c8be8c68be1654c2
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\75\75b9c374f6894624c8be8c68be1654c2
+    projectPath: Library\metadata\75\75b9c374f6894624c8be8c68be1654c2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\78\78b9e09ea0b66e0419433d6050e94ca9.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\78\78b9e09ea0b66e0419433d6050e94ca9.info
+    projectPath: Library\metadata\78\78b9e09ea0b66e0419433d6050e94ca9.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\7f\7fbfc8aa92eb0254493a1a4503066dbd.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\7f\7fbfc8aa92eb0254493a1a4503066dbd.info
+    projectPath: Library\metadata\7f\7fbfc8aa92eb0254493a1a4503066dbd.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\7f\7feffcb6c0452a842b6ffe67b02ac0c6.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\7f\7feffcb6c0452a842b6ffe67b02ac0c6.info
+    projectPath: Library\metadata\7f\7feffcb6c0452a842b6ffe67b02ac0c6.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\85\859a7a0e9d1554444a0225cd9618b6ce
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\85\859a7a0e9d1554444a0225cd9618b6ce
+    projectPath: Library\metadata\85\859a7a0e9d1554444a0225cd9618b6ce
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\metadata\85\859a7a0e9d1554444a0225cd9618b6ce.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\85\859a7a0e9d1554444a0225cd9618b6ce.info
+    projectPath: Library\metadata\85\859a7a0e9d1554444a0225cd9618b6ce.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\metadata\86\869620d937bb6ba449591771284fa719.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\86\869620d937bb6ba449591771284fa719.info
+    projectPath: Library\metadata\86\869620d937bb6ba449591771284fa719.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\87\877ef3585573ce44eab899298be23158.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\87\877ef3585573ce44eab899298be23158.info
+    projectPath: Library\metadata\87\877ef3585573ce44eab899298be23158.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\91\917a321bcd645a8498bf3bf4b5a215e3.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\91\917a321bcd645a8498bf3bf4b5a215e3.info
+    projectPath: Library\metadata\91\917a321bcd645a8498bf3bf4b5a215e3.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\97\97f7a5c428577674b81969457c8c65cd.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\97\97f7a5c428577674b81969457c8c65cd.info
+    projectPath: Library\metadata\97\97f7a5c428577674b81969457c8c65cd.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\9d\9d7f1bdafc3160145aed3ff055f30300.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\9d\9d7f1bdafc3160145aed3ff055f30300.info
+    projectPath: Library\metadata\9d\9d7f1bdafc3160145aed3ff055f30300.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\aa\aa41210a81659e745bd13114fa688af6.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\aa\aa41210a81659e745bd13114fa688af6.info
+    projectPath: Library\metadata\aa\aa41210a81659e745bd13114fa688af6.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\aa\aa44d5ecfcf46fa409fe84f563ce285b.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\aa\aa44d5ecfcf46fa409fe84f563ce285b.info
+    projectPath: Library\metadata\aa\aa44d5ecfcf46fa409fe84f563ce285b.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\ba\baa61a3bdec06814389a668c3657364a.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\ba\baa61a3bdec06814389a668c3657364a.info
+    projectPath: Library\metadata\ba\baa61a3bdec06814389a668c3657364a.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\c0\c075e8dbe6ce3504b87c3bee6f2a4bb0
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\c0\c075e8dbe6ce3504b87c3bee6f2a4bb0
+    projectPath: Library\metadata\c0\c075e8dbe6ce3504b87c3bee6f2a4bb0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\c0\c075e8dbe6ce3504b87c3bee6f2a4bb0.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\c0\c075e8dbe6ce3504b87c3bee6f2a4bb0.info
+    projectPath: Library\metadata\c0\c075e8dbe6ce3504b87c3bee6f2a4bb0.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\c0\c0809c8f0ddd4b546939f6fe7a94ac6c.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\c0\c0809c8f0ddd4b546939f6fe7a94ac6c.info
+    projectPath: Library\metadata\c0\c0809c8f0ddd4b546939f6fe7a94ac6c.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\c3\c3b25d1d1432748459d61fb9f9d404e6.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\c3\c3b25d1d1432748459d61fb9f9d404e6.info
+    projectPath: Library\metadata\c3\c3b25d1d1432748459d61fb9f9d404e6.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Platform_Project\Library\metadata\c3\c3b8f2fe59679974aaee41b40adc6a17
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\c3\c3b8f2fe59679974aaee41b40adc6a17
+    projectPath: Library\metadata\c3\c3b8f2fe59679974aaee41b40adc6a17
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\c3\c3b8f2fe59679974aaee41b40adc6a17.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\c3\c3b8f2fe59679974aaee41b40adc6a17.info
+    projectPath: Library\metadata\c3\c3b8f2fe59679974aaee41b40adc6a17.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\c4\c4404132452b58b418fdd2d3be59b055.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\c4\c4404132452b58b418fdd2d3be59b055.info
+    projectPath: Library\metadata\c4\c4404132452b58b418fdd2d3be59b055.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\c7\c774ac5e537bd474e8ee74dc67af4535.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\c7\c774ac5e537bd474e8ee74dc67af4535.info
+    projectPath: Library\metadata\c7\c774ac5e537bd474e8ee74dc67af4535.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\c9\c9f14676635d2e240bfa771e079fd8fa.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\c9\c9f14676635d2e240bfa771e079fd8fa.info
+    projectPath: Library\metadata\c9\c9f14676635d2e240bfa771e079fd8fa.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\ca\cabbd88fe34395c4696e28838399654b.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\ca\cabbd88fe34395c4696e28838399654b.info
+    projectPath: Library\metadata\ca\cabbd88fe34395c4696e28838399654b.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\cb\cb31db3b53ccda34593aae043703714c.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\cb\cb31db3b53ccda34593aae043703714c.info
+    projectPath: Library\metadata\cb\cb31db3b53ccda34593aae043703714c.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\cb\cb92c616967f9e84783926ad41192557
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\cb\cb92c616967f9e84783926ad41192557
+    projectPath: Library\metadata\cb\cb92c616967f9e84783926ad41192557
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\metadata\cb\cb92c616967f9e84783926ad41192557.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\cb\cb92c616967f9e84783926ad41192557.info
+    projectPath: Library\metadata\cb\cb92c616967f9e84783926ad41192557.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\metadata\cd\cd73685095e330c44b2151e1882c88e2.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\cd\cd73685095e330c44b2151e1882c88e2.info
+    projectPath: Library\metadata\cd\cd73685095e330c44b2151e1882c88e2.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\cd\cdb297bf591f5fd439799a76a1ec3671.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\cd\cdb297bf591f5fd439799a76a1ec3671.info
+    projectPath: Library\metadata\cd\cdb297bf591f5fd439799a76a1ec3671.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+    projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+    projectPath: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\dc\dcbb16f0b701b0b42a8153d02a4f906d
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\dc\dcbb16f0b701b0b42a8153d02a4f906d
+    projectPath: Library\metadata\dc\dcbb16f0b701b0b42a8153d02a4f906d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\dc\dcbb16f0b701b0b42a8153d02a4f906d.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\dc\dcbb16f0b701b0b42a8153d02a4f906d.info
+    projectPath: Library\metadata\dc\dcbb16f0b701b0b42a8153d02a4f906d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\e5\e5eea7e7a37f4ee459584c0ffddef551.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\e5\e5eea7e7a37f4ee459584c0ffddef551.info
+    projectPath: Library\metadata\e5\e5eea7e7a37f4ee459584c0ffddef551.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\e8\e8aea57704fb043478a91b17d22000a3.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\e8\e8aea57704fb043478a91b17d22000a3.info
+    projectPath: Library\metadata\e8\e8aea57704fb043478a91b17d22000a3.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\ea\ea483fc7e9516e44c9d21a78feffeb42.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\ea\ea483fc7e9516e44c9d21a78feffeb42.info
+    projectPath: Library\metadata\ea\ea483fc7e9516e44c9d21a78feffeb42.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\ec\ec8ea54e13255aa4da4b1b5932523489.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\ec\ec8ea54e13255aa4da4b1b5932523489.info
+    projectPath: Library\metadata\ec\ec8ea54e13255aa4da4b1b5932523489.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\ee\ee1767a6e7cd7ad45a8d43a1c3a15b2b.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\ee\ee1767a6e7cd7ad45a8d43a1c3a15b2b.info
+    projectPath: Library\metadata\ee\ee1767a6e7cd7ad45a8d43a1c3a15b2b.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\ee\ee37de86dcfde69428afa25d5706ffc7.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\ee\ee37de86dcfde69428afa25d5706ffc7.info
+    projectPath: Library\metadata\ee\ee37de86dcfde69428afa25d5706ffc7.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+    projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\f9\f9834790832341748ae239f602cf5c92.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\f9\f9834790832341748ae239f602cf5c92.info
+    projectPath: Library\metadata\f9\f9834790832341748ae239f602cf5c92.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\fa\fa5af4fe54758cd4fabc81b5230cbf0c.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\fa\fa5af4fe54758cd4fabc81b5230cbf0c.info
+    projectPath: Library\metadata\fa\fa5af4fe54758cd4fabc81b5230cbf0c.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\metadata\fe\fe095b88b5c13b84a97febfc2c2ea8d6.info
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\metadata\fe\fe095b88b5c13b84a97febfc2c2ea8d6.info
+    projectPath: Library\metadata\fe\fe095b88b5c13b84a97febfc2c2ea8d6.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\ScriptAssemblies\Cinemachine.dll
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\ScriptAssemblies\Cinemachine.dll
+    projectPath: Library\ScriptAssemblies\Cinemachine.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\ScriptAssemblies\Cinemachine.pdb
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\ScriptAssemblies\Cinemachine.pdb
+    projectPath: Library\ScriptAssemblies\Cinemachine.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+    projectPath: Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.pdb
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.pdb
+    projectPath: Library\ScriptAssemblies\com.unity.cinemachine.editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\SpriteAtlasDatabase.asset
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\SpriteAtlasDatabase.asset
+    projectPath: Library\SpriteAtlasDatabase.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\StateCache\Hierarchy\268f09-mainStage.json
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\StateCache\Hierarchy\268f09-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\268f09-mainStage.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\StateCache\Hierarchy\4c9fda-mainStage.json
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\StateCache\Hierarchy\4c9fda-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\4c9fda-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Library\StateCache\Hierarchy\f5c870-27988e2b5da1253488.json
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\StateCache\Hierarchy\f5c870-27988e2b5da1253488.json
+    projectPath: Library\StateCache\Hierarchy\f5c870-27988e2b5da1253488.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\StateCache\Hierarchy\f5c870-2e2f5b7a04ce4394ba.json
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\StateCache\Hierarchy\f5c870-2e2f5b7a04ce4394ba.json
+    projectPath: Library\StateCache\Hierarchy\f5c870-2e2f5b7a04ce4394ba.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\StateCache\Hierarchy\f5c870-72e616a061b0a83429.json
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\StateCache\Hierarchy\f5c870-72e616a061b0a83429.json
+    projectPath: Library\StateCache\Hierarchy\f5c870-72e616a061b0a83429.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\StateCache\Hierarchy\f5c870-75b9c374f6894624c8.json
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\StateCache\Hierarchy\f5c870-75b9c374f6894624c8.json
+    projectPath: Library\StateCache\Hierarchy\f5c870-75b9c374f6894624c8.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\StateCache\Hierarchy\f5c870-b5f596bee6cd90340a.json
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\StateCache\Hierarchy\f5c870-b5f596bee6cd90340a.json
+    projectPath: Library\StateCache\Hierarchy\f5c870-b5f596bee6cd90340a.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\StateCache\Hierarchy\f5c870-mainStage.json
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\StateCache\Hierarchy\f5c870-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\f5c870-mainStage.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\StateCache\SceneView\5ef00f-27988e2b5da1253488.json
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\StateCache\SceneView\5ef00f-27988e2b5da1253488.json
+    projectPath: Library\StateCache\SceneView\5ef00f-27988e2b5da1253488.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\StateCache\SceneView\5ef00f-2e2f5b7a04ce4394ba.json
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\StateCache\SceneView\5ef00f-2e2f5b7a04ce4394ba.json
+    projectPath: Library\StateCache\SceneView\5ef00f-2e2f5b7a04ce4394ba.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\StateCache\SceneView\5ef00f-72e616a061b0a83429.json
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\StateCache\SceneView\5ef00f-72e616a061b0a83429.json
+    projectPath: Library\StateCache\SceneView\5ef00f-72e616a061b0a83429.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\StateCache\SceneView\5ef00f-75b9c374f6894624c8.json
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\StateCache\SceneView\5ef00f-75b9c374f6894624c8.json
+    projectPath: Library\StateCache\SceneView\5ef00f-75b9c374f6894624c8.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\StateCache\SceneView\5ef00f-b5f596bee6cd90340a.json
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\StateCache\SceneView\5ef00f-b5f596bee6cd90340a.json
+    projectPath: Library\StateCache\SceneView\5ef00f-b5f596bee6cd90340a.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\StateCache\SceneView\5ef00f-mainStage.json
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\StateCache\SceneView\5ef00f-mainStage.json
+    projectPath: Library\StateCache\SceneView\5ef00f-mainStage.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Library\StateCache\SceneView\f849ad-mainStage.json
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Library\StateCache\SceneView\f849ad-mainStage.json
+    projectPath: Library\StateCache\SceneView\f849ad-mainStage.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\ProjectSettings\TagManager.asset
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\ProjectSettings\TagManager.asset
+    projectPath: ProjectSettings\TagManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Platform_Project\Temp\__Backupscenes\0.backup
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityLockfile
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-17727f0f24529f94f818a8af652887f2
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-17727f0f24529f94f818a8af652887f2
+    projectPath: Temp\UnityTempFile-17727f0f24529f94f818a8af652887f2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-185967917b649764a8d3eafbd098335b
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-185967917b649764a8d3eafbd098335b
+    projectPath: Temp\UnityTempFile-185967917b649764a8d3eafbd098335b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-2329e77cddf68ae41b8d9102813018b3
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-2329e77cddf68ae41b8d9102813018b3
+    projectPath: Temp\UnityTempFile-2329e77cddf68ae41b8d9102813018b3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-279770479047be244b86fe07ac183069
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-279770479047be244b86fe07ac183069
+    projectPath: Temp\UnityTempFile-279770479047be244b86fe07ac183069
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-2a665e5f769e12d4aa0e4c62730e64ff
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-2a665e5f769e12d4aa0e4c62730e64ff
+    projectPath: Temp\UnityTempFile-2a665e5f769e12d4aa0e4c62730e64ff
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-2bcd9a85402351e4589634006d9d3ae0
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-2bcd9a85402351e4589634006d9d3ae0
+    projectPath: Temp\UnityTempFile-2bcd9a85402351e4589634006d9d3ae0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-3036a6a6dcbd8314e9c93f6c36df8350
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-3036a6a6dcbd8314e9c93f6c36df8350
+    projectPath: Temp\UnityTempFile-3036a6a6dcbd8314e9c93f6c36df8350
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-3081852296b75a443be64c878ee81c33
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-3081852296b75a443be64c878ee81c33
+    projectPath: Temp\UnityTempFile-3081852296b75a443be64c878ee81c33
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-36640be34449cfc4f98a84e612189a3a
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-36640be34449cfc4f98a84e612189a3a
+    projectPath: Temp\UnityTempFile-36640be34449cfc4f98a84e612189a3a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-3aecf1cff02affb4481e3846a782fbb0
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-3aecf1cff02affb4481e3846a782fbb0
+    projectPath: Temp\UnityTempFile-3aecf1cff02affb4481e3846a782fbb0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-3bd420d4746194f41a0e243a923ef7c6
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-3bd420d4746194f41a0e243a923ef7c6
+    projectPath: Temp\UnityTempFile-3bd420d4746194f41a0e243a923ef7c6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-42673558652995d4e8e2bc94fa7c9647
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-42673558652995d4e8e2bc94fa7c9647
+    projectPath: Temp\UnityTempFile-42673558652995d4e8e2bc94fa7c9647
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-47e8f6757c8b8cf4988f55b48fe40c94
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-47e8f6757c8b8cf4988f55b48fe40c94
+    projectPath: Temp\UnityTempFile-47e8f6757c8b8cf4988f55b48fe40c94
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-7f63ccf55f0405b4b895503e1ddf66a7
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-7f63ccf55f0405b4b895503e1ddf66a7
+    projectPath: Temp\UnityTempFile-7f63ccf55f0405b4b895503e1ddf66a7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-8509dff3b57df1742bf3b5e71312c45b
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-8509dff3b57df1742bf3b5e71312c45b
+    projectPath: Temp\UnityTempFile-8509dff3b57df1742bf3b5e71312c45b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-86b60043b8f0a9d46ac34840ba4688d0
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-86b60043b8f0a9d46ac34840ba4688d0
+    projectPath: Temp\UnityTempFile-86b60043b8f0a9d46ac34840ba4688d0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-92d11b882ff72e84894625964b942fe8
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-92d11b882ff72e84894625964b942fe8
+    projectPath: Temp\UnityTempFile-92d11b882ff72e84894625964b942fe8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-a507e0ee1ffa5a8409d17ea9d2873fd6
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-a507e0ee1ffa5a8409d17ea9d2873fd6
+    projectPath: Temp\UnityTempFile-a507e0ee1ffa5a8409d17ea9d2873fd6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-ac166a6b6b6aeb049bb6a0e32cfa55d0
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-ac166a6b6b6aeb049bb6a0e32cfa55d0
+    projectPath: Temp\UnityTempFile-ac166a6b6b6aeb049bb6a0e32cfa55d0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-b894328e7a081014db33fd8162a0d5b9
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-b894328e7a081014db33fd8162a0d5b9
+    projectPath: Temp\UnityTempFile-b894328e7a081014db33fd8162a0d5b9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-bdddc549a941ca54981dc61dfbbc7673
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-bdddc549a941ca54981dc61dfbbc7673
+    projectPath: Temp\UnityTempFile-bdddc549a941ca54981dc61dfbbc7673
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-d37009cec06bc1f40a09f4f442184a88
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-d37009cec06bc1f40a09f4f442184a88
+    projectPath: Temp\UnityTempFile-d37009cec06bc1f40a09f4f442184a88
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Platform_Project\Temp\UnityTempFile-f7fa19243440b5c48825ab3fcc92011c
+    fullPath: D:\Timothy\Documents\Git\RisingStar_Game\Platform_Project\Temp\UnityTempFile-f7fa19243440b5c48825ab3fcc92011c
+    projectPath: Temp\UnityTempFile-f7fa19243440b5c48825ab3fcc92011c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
