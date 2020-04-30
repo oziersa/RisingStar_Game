@@ -5,17 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class button_is_clicked : MonoBehaviour
 {
-    void Start()
-    {
-
-    }
+    
     public void Play_Game()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     public void back_To_Menu()
     {
-        SceneManager.LoadScene("main_menu");
+        SceneManager.LoadScene("Main Menu");
     }
     public void info()
     {
@@ -25,10 +22,5 @@ public class button_is_clicked : MonoBehaviour
     {
         SceneManager.LoadScene("volume");
     }
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+    
 }

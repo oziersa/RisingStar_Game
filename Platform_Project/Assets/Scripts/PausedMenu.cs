@@ -17,6 +17,7 @@ public class PausedMenu : MonoBehaviour
     //Cached references
     float followCount;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -58,6 +59,7 @@ public class PausedMenu : MonoBehaviour
     }
     public void Pause()
     {
+        Debug.Log("Pause");
         pauseUI.SetActive(true);
         gameUI.SetActive(false);
         Time.timeScale = 0f;

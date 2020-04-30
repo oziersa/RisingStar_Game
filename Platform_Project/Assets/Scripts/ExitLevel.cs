@@ -40,6 +40,10 @@ public class ExitLevel : MonoBehaviour
         //TBD
 
         GameSession session = FindObjectOfType<GameSession>();
+        float time = FindObjectOfType<LevelInfo>().time;
+
+        float addOn = 100f * (300f - (Time.time - time));
+        session.levelScore += (int) Mathf.Max(0f, addOn);
 
         //New High Score
         if(session.levelScore > session.Level_highScore[levelNumber])

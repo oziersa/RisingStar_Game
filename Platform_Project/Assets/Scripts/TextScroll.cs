@@ -22,7 +22,7 @@ public class TextScroll : MonoBehaviour
         if(gameObject.transform.position.y > 700)
         {
             Debug.Log("Over");
-            //StartCoroutine(sceneFade());
+            StartCoroutine(sceneFade());
         }
     }
 

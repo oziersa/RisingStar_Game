@@ -450,7 +450,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 694808308533711527, guid: 2e2f5b7a04ce4394bacaabbf5f0ea4d0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2e2f5b7a04ce4394bacaabbf5f0ea4d0, type: 3}
 --- !u!4 &146506506 stripped
 Transform:
@@ -478,7 +479,7 @@ PrefabInstance:
     - target: {fileID: 8910210682703030249, guid: eda97c156b8baa348bb03e42c82d2a80,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8910210682703030253, guid: eda97c156b8baa348bb03e42c82d2a80,
         type: 3}
@@ -1077,7 +1078,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 866a96bb6fb7c9c409572c18b2d706d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelPortal: 3
+  levelPortal: 5
   levelRequirement: 2
 --- !u!50 &356600622
 Rigidbody2D:
@@ -1813,6 +1814,80 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5f596bee6cd90340a55e10d3016295a, type: 3}
+--- !u!1001 &953786692
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2040828685216990694, guid: 8ea5e56ae74d5204db13e6afb79ab6c2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.5093083
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040828685216990694, guid: 8ea5e56ae74d5204db13e6afb79ab6c2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.486589
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040828685216990694, guid: 8ea5e56ae74d5204db13e6afb79ab6c2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.34375
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040828685216990694, guid: 8ea5e56ae74d5204db13e6afb79ab6c2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040828685216990694, guid: 8ea5e56ae74d5204db13e6afb79ab6c2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040828685216990694, guid: 8ea5e56ae74d5204db13e6afb79ab6c2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040828685216990694, guid: 8ea5e56ae74d5204db13e6afb79ab6c2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040828685216990694, guid: 8ea5e56ae74d5204db13e6afb79ab6c2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040828685216990694, guid: 8ea5e56ae74d5204db13e6afb79ab6c2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040828685216990694, guid: 8ea5e56ae74d5204db13e6afb79ab6c2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040828685216990694, guid: 8ea5e56ae74d5204db13e6afb79ab6c2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4050495163162729551, guid: 8ea5e56ae74d5204db13e6afb79ab6c2,
+        type: 3}
+      propertyPath: m_Name
+      value: SceneManagement
+      objectReference: {fileID: 0}
+    - target: {fileID: 8520905904737133436, guid: 8ea5e56ae74d5204db13e6afb79ab6c2,
+        type: 3}
+      propertyPath: menuUI
+      value: 
+      objectReference: {fileID: 1157445615}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8ea5e56ae74d5204db13e6afb79ab6c2, type: 3}
 --- !u!114 &998150083 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8906616344480616594, guid: b5f596bee6cd90340a55e10d3016295a,
@@ -9900,12 +9975,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!95 &1121851745 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 6980745799340901664, guid: 75b9c374f6894624c8be8c68be1654c2,
-    type: 3}
-  m_PrefabInstance: {fileID: 1732332208}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1157445614
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20196,7 +20265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 866a96bb6fb7c9c409572c18b2d706d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelPortal: 2
+  levelPortal: 4
   levelRequirement: 1
 --- !u!50 &1337877824
 Rigidbody2D:
@@ -20325,7 +20394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 866a96bb6fb7c9c409572c18b2d706d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelPortal: 0
+  levelPortal: 1
   levelRequirement: 0
 --- !u!61 &1444798620
 BoxCollider2D:
@@ -20992,11 +21061,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1722126639}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 866a96bb6fb7c9c409572c18b2d706d8, type: 3}
+  m_Script: {fileID: 11500000, guid: c52063ab901cd574cb4706ee103d22fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelPortal: 4
+  levelPortal: 7
   levelRequirement: 4
+  followReq: 50000
 --- !u!50 &1722126642
 Rigidbody2D:
   serializedVersion: 4
@@ -21154,11 +21224,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6980745800608310405, guid: 75b9c374f6894624c8be8c68be1654c2,
-        type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 1121851745}
     - target: {fileID: 6980745800608310409, guid: 75b9c374f6894624c8be8c68be1654c2,
         type: 3}
       propertyPath: m_Name
@@ -21197,13 +21262,12 @@ PrefabInstance:
     - target: {fileID: 8856069255081672666, guid: 2e2f5b7a04ce4394bacaabbf5f0ea4d0,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: You'll need to get a few followers first.
+      value: You'll need to get a few followers first and beat the levels.
       objectReference: {fileID: 0}
     - target: {fileID: 8856069255081672666, guid: 2e2f5b7a04ce4394bacaabbf5f0ea4d0,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: If you find [number] people to follow you, then you'll be able to get
-        in.
+      value: If you find 50k people to follow you, then you'll be able to get in.
       objectReference: {fileID: 0}
     - target: {fileID: 8856069255081672667, guid: 2e2f5b7a04ce4394bacaabbf5f0ea4d0,
         type: 3}
@@ -21352,7 +21416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 866a96bb6fb7c9c409572c18b2d706d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelPortal: 4
+  levelPortal: 6
   levelRequirement: 3
 --- !u!50 &1779402014
 Rigidbody2D:
@@ -21730,7 +21794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 866a96bb6fb7c9c409572c18b2d706d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelPortal: 1
+  levelPortal: 3
   levelRequirement: 0
 --- !u!50 &1902002832
 Rigidbody2D:

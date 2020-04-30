@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneManagement : MonoBehaviour
 {
+    [SerializeField] public PausedMenu menuUI;
+
+
     public void StartGame()
     {
         Debug.Log("Trying");
@@ -24,5 +27,14 @@ public class SceneManagement : MonoBehaviour
     public void MoveToScene(int scene)
     {
         SceneManager.LoadScene(scene);
+    }
+
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.M) && !menuUI.gamePaused && SceneManager.GetActiveScene().buildIndex > 0)
+        {
+            menuUI.Pause();
+
+        }
     }
 }

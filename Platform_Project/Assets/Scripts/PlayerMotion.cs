@@ -13,6 +13,7 @@ public class PlayerMotion : MonoBehaviour
     [SerializeField] public bool dialogue = false;
     [SerializeField] AudioClip clip;
     [SerializeField] public GameObject startPoint;
+    [SerializeField] AudioClip ouch;
 
     //Cached component variables
     Collider2D feetCollider;
@@ -154,6 +155,7 @@ public class PlayerMotion : MonoBehaviour
     //Player death; Reset position
     public void PlayerPerish()
     {
+        AudioSource.PlayClipAtPoint(ouch, transform.position);
         gameObject.transform.position = startPoint.transform.position;
     }
 

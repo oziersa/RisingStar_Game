@@ -132592,6 +132592,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelInfo
       objectReference: {fileID: 0}
+    - target: {fileID: 1507563424973325522, guid: c3b8f2fe59679974aaee41b40adc6a17,
+        type: 3}
+      propertyPath: levelNumber
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6464527971515748832, guid: c3b8f2fe59679974aaee41b40adc6a17,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -136166,7 +136171,7 @@ PrefabInstance:
     - target: {fileID: 8910210682155561206, guid: eda97c156b8baa348bb03e42c82d2a80,
         type: 3}
       propertyPath: m_Text
-      value: 'Kid Sirius: He''s Serious'
+      value: Kid Sirius
       objectReference: {fileID: 0}
     - target: {fileID: 8910210682703030249, guid: eda97c156b8baa348bb03e42c82d2a80,
         type: 3}

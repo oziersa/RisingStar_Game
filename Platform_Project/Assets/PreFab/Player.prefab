@@ -66,7 +66,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -907100559
-  m_SortingLayer: 7
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 5fc3951effc8dbb47abfd19200ab67e8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -267,6 +267,7 @@ MonoBehaviour:
   dialogue: 0
   clip: {fileID: 8300000, guid: 63f0d876863c61d41a680120dd56bd6a, type: 3}
   startPoint: {fileID: 0}
+  ouch: {fileID: 8300000, guid: a98fcd6506a606c4fb096200d28242ba, type: 3}
   isGrounded: 0
   ground:
     serializedVersion: 2

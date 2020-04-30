@@ -12,7 +12,6 @@ public class GameSession : MonoBehaviour
     [SerializeField] public int levelScore = 0;
 
     [SerializeField] public Text scoreText;
-    [SerializeField] public PausedMenu menuUI;
 
     //Logic for levels cleared; to enter the level portals
     [Header("Level clearance")]
@@ -74,12 +73,5 @@ public class GameSession : MonoBehaviour
         levelScore = 0;
     }
 
-    public void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.M) && !menuUI.gamePaused && SceneManager.GetActiveScene().buildIndex != 0)
-        {
-            PausedMenu menu = FindObjectOfType<PausedMenu>();
-            menu.Pause();
-        }
-    }
+    
 }
