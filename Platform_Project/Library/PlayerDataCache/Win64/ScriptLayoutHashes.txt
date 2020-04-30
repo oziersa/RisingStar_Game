@@ -248,3 +248,4 @@ b5c3dbcb94925c8b595ad16a62b44788 Cinemachine.dll:Cinemachine.CinemachineBasicMul
 2792936179724025482dc04d68a47ca7 Cinemachine.dll:Cinemachine.CinemachineClearShot
 9b3757636829fd0b503358759b73e390 Assembly-CSharp.dll:.DialogueManager
 db691dc03e9b448fbc76e7b3441c192a Assembly-CSharp.dll:.codeGate
+226d1c3f29c011f35caa22b9f35ac446 Assembly-CSharp.dll:.SliderSetting

@@ -60,14 +60,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\audio_adjust_main_menu.cs" />
-    <Compile Include="Assets\Block.cs" />
-    <Compile Include="Assets\BlueButton.cs" />
-    <Compile Include="Assets\End.cs" />
-    <Compile Include="Assets\FinalPortal.cs" />
-    <Compile Include="Assets\Ladybug.cs" />
-    <Compile Include="Assets\PurpleButton.cs" />
-    <Compile Include="Assets\RedButton.cs" />
+    <Compile Include="Assets\Scripts\audio_adjust_main_menu.cs" />
+    <Compile Include="Assets\Scripts\Block.cs" />
+    <Compile Include="Assets\Scripts\BlueButton.cs" />
     <Compile Include="Assets\Scripts\button_is_clicked.cs" />
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\codeButtonPress.cs" />
@@ -80,11 +75,14 @@
     <Compile Include="Assets\Scripts\DialogueTrigger.cs" />
     <Compile Include="Assets\Scripts\DoorPortal.cs" />
     <Compile Include="Assets\Scripts\DynoCam.cs" />
+    <Compile Include="Assets\Scripts\End.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\ExitLevel.cs" />
+    <Compile Include="Assets\Scripts\FinalPortal.cs" />
     <Compile Include="Assets\Scripts\GameSession.cs" />
     <Compile Include="Assets\Scripts\InLevelFan.cs" />
     <Compile Include="Assets\Scripts\InLevelPearl.cs" />
+    <Compile Include="Assets\Scripts\Ladybug.cs" />
     <Compile Include="Assets\Scripts\LevelInfo.cs" />
     <Compile Include="Assets\Scripts\Medusa_Actions.cs" />
     <Compile Include="Assets\Scripts\pac_rat_movement.cs" />
@@ -95,12 +93,15 @@
     <Compile Include="Assets\Scripts\PlayerMotion.cs" />
     <Compile Include="Assets\Scripts\PlayerUI.cs" />
     <Compile Include="Assets\Scripts\Portal_To.cs" />
+    <Compile Include="Assets\Scripts\PurpleButton.cs" />
+    <Compile Include="Assets\Scripts\RedButton.cs" />
     <Compile Include="Assets\Scripts\SceneManagement.cs" />
     <Compile Include="Assets\Scripts\SpikeDamage.cs" />
     <Compile Include="Assets\Scripts\Springs.cs" />
     <Compile Include="Assets\Scripts\TextScroll.cs" />
     <Compile Include="Assets\Scripts\VisualHints.cs" />
     <Compile Include="Assets\Scripts\VolumeOption.cs" />
+    <Compile Include="Assets\SliderSetting.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />

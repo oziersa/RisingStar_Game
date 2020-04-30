@@ -687,6 +687,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8856069255081672666, guid: 2e2f5b7a04ce4394bacaabbf5f0ea4d0,
         type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856069255081672666, guid: 2e2f5b7a04ce4394bacaabbf5f0ea4d0,
+        type: 3}
       propertyPath: dialogue.dialogueName
       value: Phil-ya-in
       objectReference: {fileID: 0}
@@ -704,6 +709,16 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
       value: Be sure to press 'e' around them to get the ball rolling.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856069255081672666, guid: 2e2f5b7a04ce4394bacaabbf5f0ea4d0,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: Also, be sure to help the cameraman out a bit.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856069255081672666, guid: 2e2f5b7a04ce4394bacaabbf5f0ea4d0,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: If you move from his sight, wiggle around a bit for him.
       objectReference: {fileID: 0}
     - target: {fileID: 8856069255081672667, guid: 2e2f5b7a04ce4394bacaabbf5f0ea4d0,
         type: 3}

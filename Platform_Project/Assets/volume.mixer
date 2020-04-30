@@ -17,7 +17,7 @@ AudioMixerController:
   m_UpdateMode: 0
   m_ExposedParameters:
   - guid: 1b841a4b49b315f4dac4f50b4d9b6df3
-    name: volume
+    name: MasterVol
   m_AudioMixerGroupViews:
   - guids:
     - b8327d0ce1d092e4897931776d5f3bdf
@@ -38,7 +38,7 @@ AudioMixerGroupController:
   m_Pitch: e08f37c4aa8421e4b9c8af3dcf751a75
   m_Effects:
   - {fileID: 24400004}
-  m_UserColorIndex: 0
+  m_UserColorIndex: 2
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
