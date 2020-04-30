@@ -45,7 +45,11 @@ public class PausedMenu : MonoBehaviour
                 Pause();  
             }
         }
-        
+
+        //Keeping up with the Kardashians
+        followCount = FindObjectOfType<GameSession>().playerScore;
+        followerCount.text = followCount.ToString();
+
     }
 
 

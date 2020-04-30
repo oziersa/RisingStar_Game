@@ -138,7 +138,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 666a1bc8d46f314c018ffaaa3f6628d1 Cinemachine.dll:Cinemachine.CinemachineFreeLook
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-a2f4e11ba3a0045230319c4abebaa34c Assembly-CSharp.dll:.SceneManagement
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.SceneManagement
 71bb6a6b6c8f052f948db64c7dd3ca4f Cinemachine.dll:Cinemachine.PostFX.CinemachinePostProcessing
 8963690ef6f6b05ce03bfd8b5c26e20c Cinemachine.dll:Cinemachine.NoiseSettings
 303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
@@ -169,6 +169,7 @@ b8d5d0c8cbb7f8e9b3f98cd7fedbcb5f Assembly-CSharp.dll:.PurpleButton
 694d20920c0e41f567e119f7159a3644 Cinemachine.dll:Cinemachine.CinemachinePath
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.SpikeDamage
+226d1c3f29c011f35caa22b9f35ac446 Assembly-CSharp.dll:.SliderSetting
 56df1fa7cea034df9863fe5a24200a32 Cinemachine.dll:Cinemachine.CinemachineTargetGroup
 aca800caf854328e0f661b618018ae3a Assembly-CSharp.dll:.DialogueTrigger
 e3df8268bc4cf5371ea6876ea265294d Assembly-CSharp.dll:.BlueButton
@@ -248,4 +249,3 @@ b5c3dbcb94925c8b595ad16a62b44788 Cinemachine.dll:Cinemachine.CinemachineBasicMul
 2792936179724025482dc04d68a47ca7 Cinemachine.dll:Cinemachine.CinemachineClearShot
 9b3757636829fd0b503358759b73e390 Assembly-CSharp.dll:.DialogueManager
 db691dc03e9b448fbc76e7b3441c192a Assembly-CSharp.dll:.codeGate
-226d1c3f29c011f35caa22b9f35ac446 Assembly-CSharp.dll:.SliderSetting

@@ -1032,6 +1032,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2674937142129753293, guid: c774ac5e537bd474e8ee74dc67af4535,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1638201677}
+    - target: {fileID: 2674937142129753293, guid: c774ac5e537bd474e8ee74dc67af4535,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Resume
+      objectReference: {fileID: 0}
     - target: {fileID: 2674937142938762964, guid: c774ac5e537bd474e8ee74dc67af4535,
         type: 3}
       propertyPath: m_Name
@@ -1146,6 +1156,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2674937143860554276, guid: c774ac5e537bd474e8ee74dc67af4535,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 928168711}
+    - target: {fileID: 2674937143860554276, guid: c774ac5e537bd474e8ee74dc67af4535,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MainMenu
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c774ac5e537bd474e8ee74dc67af4535, type: 3}
@@ -2058,7 +2078,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1611469940
 RectTransform:
   m_ObjectHideFlags: 0

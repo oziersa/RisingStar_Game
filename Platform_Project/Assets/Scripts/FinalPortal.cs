@@ -33,4 +33,9 @@ public class FinalPortal : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        session = FindObjectOfType<GameSession>();
+    }
+
 }

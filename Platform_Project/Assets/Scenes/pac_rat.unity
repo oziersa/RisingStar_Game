@@ -24209,7 +24209,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 709308133}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.603608, y: 31.037554, z: -8.6875}
+  m_LocalPosition: {x: -8.603609, y: 31.037554, z: -8.6875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1884891823}
@@ -24465,7 +24465,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 760953826}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.502101, y: 27.518274, z: -11.355469}
+  m_LocalPosition: {x: -4.502102, y: 27.518274, z: -11.355469}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1042286315}
@@ -25628,11 +25628,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SceneManagement
-      objectReference: {fileID: 0}
-    - target: {fileID: 8520905904737133436, guid: 8ea5e56ae74d5204db13e6afb79ab6c2,
-        type: 3}
-      propertyPath: menuUI
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ea5e56ae74d5204db13e6afb79ab6c2, type: 3}

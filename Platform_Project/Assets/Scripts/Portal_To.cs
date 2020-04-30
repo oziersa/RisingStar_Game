@@ -28,8 +28,14 @@ public class Portal_To : MonoBehaviour
         //Required level not cleared
         else if(collision.GetComponent<PlayerMotion>() && Input.GetButton("Fire1"))
         {
+            Debug.Log(session.Level_clear[levelRequirement]);
             Debug.Log("Requires: " + levelRequirement);
         }
     }
 
+
+    private void Update()
+    {
+        session = FindObjectOfType<GameSession>();
+    }
 }
