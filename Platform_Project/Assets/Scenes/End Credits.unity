@@ -193,7 +193,7 @@ PrefabInstance:
     - target: {fileID: 8910210682155561206, guid: eda97c156b8baa348bb03e42c82d2a80,
         type: 3}
       propertyPath: m_Text
-      value: Them Hot Creds
+      value: Them Creds
       objectReference: {fileID: 0}
     - target: {fileID: 8910210682703030249, guid: eda97c156b8baa348bb03e42c82d2a80,
         type: 3}
@@ -203,6 +203,11 @@ PrefabInstance:
     - target: {fileID: 8910210682703030249, guid: eda97c156b8baa348bb03e42c82d2a80,
         type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910210682703030252, guid: eda97c156b8baa348bb03e42c82d2a80,
+        type: 3}
+      propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8910210682703030253, guid: eda97c156b8baa348bb03e42c82d2a80,

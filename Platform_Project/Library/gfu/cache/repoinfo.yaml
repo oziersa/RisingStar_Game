@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-04-29T20:15:20.637-05:00
-  initializedAtString: 2020-04-29T20:15:20.637-05:00
+  lastUpdatedAtString: 2020-04-29T21:03:38.170-05:00
+  initializedAtString: 2020-04-29T21:03:38.170-05:00
   currentGitRemote:
     name: origin
     url: https://github.com/oziersa/RisingStar_Game
