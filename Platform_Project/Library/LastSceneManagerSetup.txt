@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/pac_rat.unity
+- path: Assets/Scenes/OverWorld 1.unity
   isLoaded: 1
   isActive: 1
